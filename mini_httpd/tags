@@ -1,0 +1,210 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+#center 	wwwroot/css/style.css	/^#center {$/;"	i
+#end 	wwwroot/css/style.css	/^#end {$/;"	i
+#game 	wwwroot/css/style.css	/^#game {$/;"	i
+#joystick 	wwwroot/css/style.css	/^#joystick {$/;"	i
+#joystick-head 	wwwroot/css/style.css	/^#joystick-head {$/;"	i
+#maze 	wwwroot/css/style.css	/^#maze {$/;"	i
+#note 	wwwroot/css/style.css	/^#note {$/;"	i
+#youtube	wwwroot/css/style.css	/^#youtube,$/;"	i
+#youtube 	wwwroot/css/style.css	/^  #youtube {$/;"	i
+#youtube span 	wwwroot/css/style.css	/^  #youtube span {$/;"	i
+#youtube-card 	wwwroot/css/style.css	/^#youtube-card {$/;"	i
+#youtube::after 	wwwroot/css/style.css	/^  #youtube::after {$/;"	i
+#youtube::before 	wwwroot/css/style.css	/^  #youtube::before {$/;"	i
+#youtube:focus 	wwwroot/css/style.css	/^  #youtube:focus {$/;"	i
+#youtube:hover	wwwroot/css/style.css	/^  #youtube:hover,$/;"	i
+#youtube:hover + #youtube-card 	wwwroot/css/style.css	/^  #youtube:hover + #youtube-card {$/;"	i
+.ball 	wwwroot/css/style.css	/^.ball {$/;"	c
+.black-hole 	wwwroot/css/style.css	/^.black-hole {$/;"	c
+.joystick-arrow:nth-of-type	wwwroot/css/style.css	/^.joystick-arrow:nth-of-type(1) {$/;"	c
+.joystick-arrow:nth-of-type	wwwroot/css/style.css	/^.joystick-arrow:nth-of-type(2) {$/;"	c
+.joystick-arrow:nth-of-type	wwwroot/css/style.css	/^.joystick-arrow:nth-of-type(3) {$/;"	c
+.joystick-arrow:nth-of-type	wwwroot/css/style.css	/^.joystick-arrow:nth-of-type(4) {$/;"	c
+.wall 	wwwroot/css/style.css	/^.wall {$/;"	c
+.wall::after 	wwwroot/css/style.css	/^.wall::after {$/;"	c
+.wall::before	wwwroot/css/style.css	/^.wall::before,$/;"	c
+.wall::before 	wwwroot/css/style.css	/^.wall::before {$/;"	c
+1	wwwroot/css/style.css	/^.joystick-arrow:nth-of-type(1) {$/;"	s
+1.2	wwwroot/css/style.css	/^    transform: scale(1.2);$/;"	s
+100	wwwroot/css/style.css	/^  100% {$/;"	s
+2	wwwroot/css/style.css	/^.joystick-arrow:nth-of-type(2) {$/;"	s
+3	wwwroot/css/style.css	/^.joystick-arrow:nth-of-type(3) {$/;"	s
+4	wwwroot/css/style.css	/^.joystick-arrow:nth-of-type(4) {$/;"	s
+Accept	Sock.hpp	/^        static int Accept(int sock)$/;"	f	class:Sock
+AddHeader	Protocol.hpp	/^        void AddHeader(const std::string &ct)$/;"	f	class:HttpResponse
+ArgErr	Log.hpp	/^    ArgErr$/;"	e	enum:ERR
+BACKLOG	Sock.hpp	21;"	d
+BIN	Makefile	/^BIN=http_server$/;"	m
+Bind	Sock.hpp	/^        static void Bind(int sock, int port)$/;"	f	class:Sock
+BindErr	Log.hpp	/^    BindErr,$/;"	e	enum:ERR
+CC	Makefile	/^CC=g++$/;"	m
+CURR_PATH	Makefile	/^CURR_PATH=$(shell pwd)$/;"	m
+CalData	cgi/test_cgi.cc	/^void CalData(std::string &qs)$/;"	f
+CodeToDesc	Protocol.hpp	/^static std::string CodeToDesc(int code)$/;"	f
+ERR	Log.hpp	/^enum ERR{$/;"	g
+EndPoint	Protocol.hpp	/^        EndPoint(int _sock):sock(_sock)$/;"	f	class:EndPoint
+EndPoint	Protocol.hpp	/^class EndPoint{$/;"	c
+Entry	Protocol.hpp	/^class Entry{$/;"	c
+Error	Log.hpp	9;"	d
+ExecCgi	Protocol.hpp	/^        void ExecCgi()$/;"	f	class:EndPoint
+ExecNonCgi	Protocol.hpp	/^        void ExecNonCgi(const std::string &path)$/;"	f	class:EndPoint
+FLAGS	Makefile	/^FLAGS=-std=c++11 -lpthread #-DDEBUG$/;"	m
+Fatal	Log.hpp	10;"	d
+GetBody	Protocol.hpp	/^        std::string GetBody()$/;"	f	class:HttpRequest
+GetContentLength	Protocol.hpp	/^        ssize_t GetContentLength()$/;"	f	class:HttpRequest
+GetFileSize	Protocol.hpp	/^        ssize_t GetFileSize()$/;"	f	class:HttpRequest
+GetInstance	HttpServer.hpp	/^        static HttpServer *GetInstance(int sk)$/;"	f	class:HttpServer
+GetLine	Sock.hpp	/^        static void GetLine(int sock, std::string &line)$/;"	f	class:Sock
+GetMethod	Protocol.hpp	/^        std::string GetMethod()$/;"	f	class:HttpRequest
+GetPath	Protocol.hpp	/^        std::string GetPath()$/;"	f	class:HttpRequest
+GetQueryString	Protocol.hpp	/^        std::string GetQueryString()$/;"	f	class:HttpRequest
+GetRequestBody	Protocol.hpp	/^        void GetRequestBody()$/;"	f	class:EndPoint
+GetRequestHeader	Protocol.hpp	/^        void GetRequestHeader()$/;"	f	class:EndPoint
+GetRequestLine	Protocol.hpp	/^        void GetRequestLine()$/;"	f	class:EndPoint
+GetRspHeader	Protocol.hpp	/^        const std::vector<std::string>& GetRspHeader()$/;"	f	class:HttpResponse
+GetStatusLine	Protocol.hpp	/^        std::string GetStatusLine()$/;"	f	class:HttpResponse
+HOMEPAGE	Protocol.hpp	9;"	d
+HandlerHttp	Protocol.hpp	/^        static void HandlerHttp(int sock)$/;"	f	class:Entry
+HttpRequest	Protocol.hpp	/^class HttpRequest{$/;"	c
+HttpResponse	Protocol.hpp	/^        HttpResponse():blank("\\r\\n")$/;"	f	class:HttpResponse
+HttpResponse	Protocol.hpp	/^class HttpResponse{$/;"	c
+HttpServer	HttpServer.hpp	/^        HttpServer(int _p = PORT)$/;"	f	class:HttpServer
+HttpServer	HttpServer.hpp	/^class HttpServer{$/;"	c
+InitServer	HttpServer.hpp	/^        void InitServer()$/;"	f	class:HttpServer
+InitThreadPool	ThreadPool.hpp	/^        void InitThreadPool()$/;"	f	class:ThreadPool
+InsertHeaderLine	Protocol.hpp	/^        void InsertHeaderLine(const std::string &line)$/;"	f	class:HttpRequest
+IsAddHomePage	Protocol.hpp	/^        void IsAddHomePage()$/;"	f	class:HttpRequest
+IsCgi	Protocol.hpp	/^        bool IsCgi()$/;"	f	class:HttpRequest
+IsEmpty	ThreadPool.hpp	/^        bool IsEmpty()$/;"	f	class:ThreadPool
+IsGet	Protocol.hpp	/^        bool IsGet()$/;"	f	class:HttpRequest
+IsMethodLegal	Protocol.hpp	/^        bool IsMethodLegal()$/;"	f	class:HttpRequest
+IsNeedRecvBody	Protocol.hpp	/^        bool IsNeedRecvBody()$/;"	f	class:HttpRequest
+IsPost	Protocol.hpp	/^        bool IsPost()$/;"	f	class:HttpRequest
+LOG	Log.hpp	19;"	d
+Listen	Sock.hpp	/^        static void Listen(int sock)$/;"	f	class:Sock
+ListenErr	Log.hpp	/^    ListenErr,$/;"	e	enum:ERR
+LockQueue	ThreadPool.hpp	/^        void LockQueue()$/;"	f	class:ThreadPool
+Log	Log.hpp	/^void Log(std::string level, std::string message, std::string filename, size_t line)$/;"	f
+MakeResponse	Protocol.hpp	/^        void MakeResponse()$/;"	f	class:EndPoint
+MakeStringToKV	Util.hpp	/^        static void MakeStringToKV(std::string line, std::string &k, std::string &v)$/;"	f	class:Util
+MakeSuffix	Protocol.hpp	/^        std::string MakeSuffix()$/;"	f	class:HttpRequest
+Notice	Log.hpp	7;"	d
+PORT	HttpServer.hpp	8;"	d
+PopTask	ThreadPool.hpp	/^        Task *PopTask()$/;"	f	class:ThreadPool
+PushTask	ThreadPool.hpp	/^        void PushTask(Task *tk)$/;"	f	class:ThreadPool
+RecvRequest	Protocol.hpp	/^        void RecvRequest()$/;"	f	class:EndPoint
+RequestHeaderParse	Protocol.hpp	/^        void RequestHeaderParse()$/;"	f	class:HttpRequest
+Routine	ThreadPool.hpp	/^        static void *Routine(void *args)$/;"	f	class:ThreadPool
+RquestLineParse	Protocol.hpp	/^        void RquestLineParse()$/;"	f	class:HttpRequest
+Run	ThreadPool.hpp	/^        void Run()$/;"	f	class:Task
+SRC	Makefile	/^SRC=main.cc$/;"	m
+SendResponse	Protocol.hpp	/^        void SendResponse()$/;"	f	class:EndPoint
+SetCgi	Protocol.hpp	/^        void SetCgi()$/;"	f	class:HttpRequest
+SetFileSize	Protocol.hpp	/^        void SetFileSize(ssize_t s)$/;"	f	class:HttpRequest
+SetPath	Protocol.hpp	/^        std::string SetPath(std::string _path)$/;"	f	class:HttpRequest
+SetReaponseHeaderLine	Protocol.hpp	/^        void SetReaponseHeaderLine()$/;"	f	class:EndPoint
+SetRequestBody	Protocol.hpp	/^        void SetRequestBody(const std::string &body)$/;"	f	class:HttpRequest
+SetResponseStatusLine	Protocol.hpp	/^        void SetResponseStatusLine(int code)$/;"	f	class:EndPoint
+SetRquestLine	Protocol.hpp	/^        void SetRquestLine(const std::string &line)$/;"	f	class:HttpRequest
+SetSockOpt	Sock.hpp	/^        static void SetSockOpt(int sock)$/;"	f	class:Sock
+SetStatusLine	Protocol.hpp	/^        void SetStatusLine(const std::string &sline)$/;"	f	class:HttpResponse
+SetUriEqPath	Protocol.hpp	/^        void SetUriEqPath()$/;"	f	class:HttpRequest
+Sock	Sock.hpp	/^class Sock{$/;"	c
+Socket	Sock.hpp	/^        static int Socket()$/;"	f	class:Sock
+SocketErr	Log.hpp	/^    SocketErr=1,$/;"	e	enum:ERR
+Start	HttpServer.hpp	/^        void Start()$/;"	f	class:HttpServer
+StringParse	Util.hpp	/^        static void StringParse(std::string &request_line, std::string &method,\\$/;"	f	class:Util
+StringToInt	Util.hpp	/^        static ssize_t StringToInt(const std::string &v)$/;"	f	class:Util
+SuffixToDesc	Protocol.hpp	/^static std::string SuffixToDesc(const std::string &suffix)$/;"	f
+Task	ThreadPool.hpp	/^        Task(int sk):sock(sk),handler(Entry::HandlerHttp)$/;"	f	class:Task
+Task	ThreadPool.hpp	/^class Task{$/;"	c
+ThreadPool	ThreadPool.hpp	/^        ThreadPool(int n = 2):num(n)$/;"	f	class:ThreadPool
+ThreadPool	ThreadPool.hpp	/^class ThreadPool{$/;"	c
+ThreadWait	ThreadPool.hpp	/^        void ThreadWait()$/;"	f	class:ThreadPool
+ThreadWakeup	ThreadPool.hpp	/^        void ThreadWakeup()$/;"	f	class:ThreadPool
+UnlockQueue	ThreadPool.hpp	/^        void UnlockQueue()$/;"	f	class:ThreadPool
+UriParse	Protocol.hpp	/^        void UriParse()$/;"	f	class:HttpRequest
+Usage	main.cc	/^static void Usage(std::string _porc)$/;"	f	file:
+Util	Util.hpp	/^class Util{$/;"	c
+VERSION	Protocol.hpp	10;"	d
+WEBROOT	Protocol.hpp	8;"	d
+Warning	Log.hpp	8;"	d
+a:visited 	wwwroot/css/style.css	/^a:visited {$/;"	s
+blank	Protocol.hpp	/^        std::string blank;$/;"	m	class:HttpRequest
+blank	Protocol.hpp	/^        std::string blank;$/;"	m	class:HttpResponse
+body 	wwwroot/css/style.css	/^body {$/;"	s
+border-bottom: 10px solid transparent	wwwroot/css/style.css	/^  border-bottom: 10px solid transparent;$/;"	s
+border-bottom: 10px solid var	wwwroot/css/style.css	/^  border-bottom: 10px solid var(--joystick-color);$/;"	s
+border-left: 10px solid transparent	wwwroot/css/style.css	/^  border-left: 10px solid transparent;$/;"	s
+border-left: 10px solid var	wwwroot/css/style.css	/^  border-left: 10px solid var(--joystick-color);$/;"	s
+border-right: 10px solid transparent	wwwroot/css/style.css	/^  border-right: 10px solid transparent;$/;"	s
+border-right: 10px solid var	wwwroot/css/style.css	/^  border-right: 10px solid var(--joystick-color);$/;"	s
+border-top: 10px solid transparent	wwwroot/css/style.css	/^  border-top: 10px solid transparent;$/;"	s
+border-top: 10px solid var	wwwroot/css/style.css	/^  border-top: 10px solid var(--joystick-color);$/;"	s
+bottom: 55px	wwwroot/css/style.css	/^  bottom: 55px;$/;"	s
+cgi	Protocol.hpp	/^        bool cgi;$/;"	m	class:HttpRequest
+cond	ThreadPool.hpp	/^        pthread_cond_t cond;$/;"	m	class:ThreadPool
+const.x	wwwroot/js/script.js	/^  const deltaFromCap = {$/;"	p
+content_length	Protocol.hpp	/^        ssize_t content_length;$/;"	m	class:HttpRequest
+file_size	Protocol.hpp	/^        ssize_t file_size;$/;"	m	class:HttpRequest
+glow 	wwwroot/css/style.css	/^@keyframes glow {$/;"	s
+handler	ThreadPool.hpp	/^        handler_t handler;$/;"	m	class:Task
+handler_t	ThreadPool.hpp	/^typedef void (*handler_t)(int);$/;"	t
+header_kv	Protocol.hpp	/^        std::unordered_map<std::string,std::string> header_kv;$/;"	m	class:HttpRequest
+height: 0	wwwroot/css/style.css	/^  height: 0;$/;"	s
+html	wwwroot/css/style.css	/^html,$/;"	s
+http_svr	HttpServer.hpp	/^        static HttpServer *http_svr;$/;"	m	class:HttpServer
+http_svr	HttpServer.hpp	/^HttpServer *HttpServer::http_svr = nullptr;$/;"	m	class:HttpServer
+joystick-color	wwwroot/css/style.css	/^  border-bottom: 10px solid var(--joystick-color);$/;"	s
+joystick-color	wwwroot/css/style.css	/^  border-left: 10px solid var(--joystick-color);$/;"	s
+joystick-color	wwwroot/css/style.css	/^  border-right: 10px solid var(--joystick-color);$/;"	s
+joystick-color	wwwroot/css/style.css	/^  border-top: 10px solid var(--joystick-color);$/;"	s
+left: 55px	wwwroot/css/style.css	/^  left: 55px;$/;"	s
+lock	HttpServer.hpp	/^        static pthread_mutex_t lock;$/;"	m	class:HttpServer
+lock	HttpServer.hpp	/^pthread_mutex_t HttpServer::lock = PTHREAD_MUTEX_INITIALIZER;$/;"	m	class:HttpServer
+lock	ThreadPool.hpp	/^        pthread_mutex_t lock;$/;"	m	class:ThreadPool
+lsock	HttpServer.hpp	/^        int lsock;$/;"	m	class:HttpServer
+main	cgi/test_cgi.cc	/^int main()$/;"	f
+main	main.cc	/^int main(int argc, char *argv[])$/;"	f
+main	wwwroot/js/script.js	/^function main(timestamp) {$/;"	f
+method	Protocol.hpp	/^        std::string method;$/;"	m	class:HttpRequest
+num	ThreadPool.hpp	/^        int num;$/;"	m	class:ThreadPool
+path	Protocol.hpp	/^        std::string path;$/;"	m	class:HttpRequest
+port	HttpServer.hpp	/^        int port;$/;"	m	class:HttpServer
+position: absolute	wwwroot/css/style.css	/^  position: absolute;$/;"	s
+q	ThreadPool.hpp	/^        std::queue<Task*> q; $/;"	m	class:ThreadPool
+query_string	Protocol.hpp	/^        std::string query_string;$/;"	m	class:HttpRequest
+req	Protocol.hpp	/^        HttpRequest req;$/;"	m	class:EndPoint
+request_body	Protocol.hpp	/^        std::string request_body;$/;"	m	class:HttpRequest
+request_header	Protocol.hpp	/^        std::vector<std::string> request_header;$/;"	m	class:HttpRequest
+request_line	Protocol.hpp	/^        std::string request_line;$/;"	m	class:HttpRequest
+resetGame	wwwroot/js/script.js	/^function resetGame() {$/;"	f
+response_body	Protocol.hpp	/^        std::string response_body;$/;"	m	class:HttpResponse
+response_header	Protocol.hpp	/^        std::vector<std::string> response_header;$/;"	m	class:HttpResponse
+right: 55px	wwwroot/css/style.css	/^  right: 55px;$/;"	s
+rsp	Protocol.hpp	/^        HttpResponse rsp;$/;"	m	class:EndPoint
+sock	Protocol.hpp	/^        int sock;$/;"	m	class:EndPoint
+sock	ThreadPool.hpp	/^        int sock;$/;"	m	class:Task
+start	ctrl.sh	/^function start()$/;"	f
+status	ctrl.sh	/^function status()$/;"	f
+status_line	Protocol.hpp	/^        std::string status_line;$/;"	m	class:HttpResponse
+stop	ctrl.sh	/^function stop()$/;"	f
+suffix	Protocol.hpp	/^        std::string suffix;$/;"	m	class:HttpRequest
+top: 55px	wwwroot/css/style.css	/^  top: 55px;$/;"	s
+tp	HttpServer.hpp	/^        ThreadPool *tp;$/;"	m	class:HttpServer
+transform: scale	wwwroot/css/style.css	/^    transform: scale(1.2);$/;"	s
+uri	Protocol.hpp	/^        std::string uri;$/;"	m	class:HttpRequest
+version	Protocol.hpp	/^        std::string version;$/;"	m	class:HttpRequest
+width: 0	wwwroot/css/style.css	/^  width: 0;$/;"	s
+~EndPoint	Protocol.hpp	/^        ~EndPoint()$/;"	f	class:EndPoint
+~HttpRequest	Protocol.hpp	/^        ~HttpRequest()$/;"	f	class:HttpRequest
+~HttpResponse	Protocol.hpp	/^        ~HttpResponse()$/;"	f	class:HttpResponse
+~HttpServer	HttpServer.hpp	/^        ~HttpServer()$/;"	f	class:HttpServer
+~Task	ThreadPool.hpp	/^        ~Task()$/;"	f	class:Task
+~ThreadPool	ThreadPool.hpp	/^        ~ThreadPool()$/;"	f	class:ThreadPool
